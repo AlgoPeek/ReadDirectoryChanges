@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{94a0b0b1-f94e-4ac7-9a86-173394df3667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadDirectoryRequest">
+      <UniqueIdentifier>{8afa8fb5-bada-455a-8e5e-6e92c762815a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ReadDirectoryServer">
+      <UniqueIdentifier>{76957369-67e6-4043-ae39-2a6b7d4a9967}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util\IoCompletionPort.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\auto_release.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ThreadSafeQueue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryChanges.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryRequest\ReadDirectoryRequest.h">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryServer\ReadDirectoryServer.h">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryRequest\CompletionRoutineRequest.h">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryRequest\IoCompletionPortReqeust.h">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryServer\CompletionRoutineServer.h">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadDirectoryServer\IoCompletionPortServer.h">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryChanges.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryRequest\ReadDirectoryRequest.cpp">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryServer\ReadDirectoryServer.cpp">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryRequest\CompletionRoutineRequest.cpp">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryRequest\IoCompletionPortReqeust.cpp">
+      <Filter>ReadDirectoryRequest</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryServer\CompletionRoutineServer.cpp">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadDirectoryServer\IoCompletionPortServer.cpp">
+      <Filter>ReadDirectoryServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
